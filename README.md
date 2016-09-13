@@ -9,6 +9,9 @@
 
 
 [1部分：选择硬件waiting。。。](https://github.com/isiot/diy_LoRa_gateway/edit/master/README.md)
+
 [2部分：硬件修改waiting。。。](https://github.com/isiot/diy_LoRa_gateway/edit/master/README.md)
+
 [3部分：软件编译waiting。。。](https://github.com/isiot/diy_LoRa_gateway/edit/master/README.md)
+
 [4部分：软件修改waiting。。。](https://github.com/isiot/diy_LoRa_gateway/edit/master/README.md)
