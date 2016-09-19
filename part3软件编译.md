@@ -25,50 +25,33 @@ cd ~
 ```
 
 现在我们可以继续关于LoRa网关的部分了：下载源代码和编译，一旦完成编译，就把他们复制到 ~/lora/exec：
-
+```
 mkdir ~/lora
-
 cd ~/lora
-
 mkdir exec
-
 git clone https://github.com/mirakonta/lora_gateway.git
-
 git clone https://github.com/mirakonta/packet_forwarder.git
-
 cd ~/lora/lora_gateway
-
 make clean all
-
 cd ~/lora/packet_forwarder
-
 make clean all
-
 cp ~/lora/packet_forwarder/basic_pkt_fwd/basic_pkt_fwd ~/lora/exec/
-
 cp ~/lora/packet_forwarder/gps_pkt_fwd/gps_pkt_fwd ~/lora/exec/
-
 cp ~/lora/packet_forwarder/gps_pkt_fwd/global_conf.json ~/lora/exec/
-
 cd ~/lora/exec
+```
 
 最后，我们执行的LoRa gateway：
-
+```
 sudo ./gps_pkt_fwd
+```
 
 本教程使用这些链接：
 
 https://github.com/Lora-net/lora_gateway/blob/v3.1.0/libloragw/install_ftdi.txt
+
 https://github.com/Lora-net/packet_forwarder/wiki/Use-with-Raspberry-Pi
 
-
-
-```javascript
-  var ihubo = {
-    nickName  : "草依山",
-    site : "http://jser.me"
-  }
-```
 
 
 
