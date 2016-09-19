@@ -72,12 +72,17 @@ sudo ./gps_pkt_fwd
 
 本教程使用这些链接：
 
-[](https://github.com/Lora-net/lora_gateway/blob/v3.1.0/libloragw/install_ftdi.txt)
-[](https://github.com/Lora-net/packet_forwarder/wiki/Use-with-Raspberry-Pi)
+https://github.com/Lora-net/lora_gateway/blob/v3.1.0/libloragw/install_ftdi.txt
+https://github.com/Lora-net/packet_forwarder/wiki/Use-with-Raspberry-Pi
 
 
 
-
+```javascript
+  var ihubo = {
+    nickName  : "草依山",
+    site : "http://jser.me"
+  }
+```
 
 
 
