@@ -2,7 +2,7 @@ LoRa网关的软件部分本来应该做适当修改再进行编译的，但本�
 
 如果你想知道我所做的修改，请阅读下文并查看我提交的commits。
 
-我第一次编译时，软件并没有运行起来，我意识到USB驱动没有被识别，因为我手上的mCard与LoRa开发套件（即与https://github.com/Lora-net/lora_gateway配套的套件）
+我第一次编译时，软件并没有运行起来，我意识到USB驱动没有被识别，因为我手上的mCard与LoRa开发套件（即与 https://github.com/Lora-net/lora_gateway 配套的套件）
 
 使用了不同的FTDI USB to SPI转换芯片FT232H，每个FT232H都有不同的PID(Product IDentification)，我修改了源文件中的以下文件：
  
